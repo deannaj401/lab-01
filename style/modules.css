@@ -1,0 +1,146 @@
+.boxes>#box-a {
+  background-color: red;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.boxes>#box-b {
+  background-color:orange;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-c {
+  background-color:yellow;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-d {
+  background-color:green;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-e {
+  background-color: lightseagreen;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-f {
+  background-color:blue;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-g {
+  background-color:lightskyblue;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-h {
+  background-color: purple;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boxes>#box-i {
+  background-color:pink;
+  border: solid 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  body {
+    width: 960px;
+    margin: auto;
+  }
+  .boxes>#box-a {
+    background-color: pink;
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+    
+  }
+
+  .boxes>#box-b {
+    background-color:purple;
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+   float:left;
+  }
+
+  .boxes>#box-c {
+    background-color: lightskyblue;
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    display: inline-block;
+    
+  }
+
+  .boxes>#box-d {
+    background-color: blue;
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    float:left;
+    position: relative;
+    padding:0;
+  }
+
+  .boxes>#box-e {
+    background-color: lightseagreen;
+    height: 250px;
+    width: 190px;
+    line-height: 250px;
+    /* float: left; */
+    
+  }
+
+  .boxes>#box-f {
+    background-color: green;
+    height: 250px;
+    width: 190px;
+    line-height: 250px;
+    float: left;
+  }
+
+  .boxes>#box-g {
+    background-color:yellow;
+    height: 250px;
+    width: 190px;
+    line-height: 250px;
+    float: left;
+  }
+
+  .boxes>#box-h {
+    background-color:orange;
+    height: 250px;
+    width: 190px;
+    line-height: 250px;
+   float: left;
+  }
+
+  .boxes>#box-i {
+    background-color:red;
+    height: 150px;
+    width: 760px;
+    line-height: 150px;
+    float:left;
+  }
+
+}
